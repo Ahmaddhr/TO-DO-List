@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="app">
+            <header>
+                <h2>TO-DO List</h2>
+                <img src="img/todoList.jpg" alt="logo">
+            </header>
+
+            <div class="app-box">
+                <div class="todo-app">
+                    <input type="text" placeholder="Add New Task..." id="input-box">
+                    <button onclick="addTodo()">Add</button>
+                </div>
+                <div class="error" id="error">
+                </div>
+            </div>
+
+            <ul id="list-container"></ul>
+            <div class="reset">
+                <button class="reset-btn" onclick="reset()" id="reset">Reset</button>
+            </div>
+        </div>
+        <footer>
+            <p>Created By Ahmad Daher &copy;</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/ahmaddhr_/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/+96176522837"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
